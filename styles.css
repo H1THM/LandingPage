@@ -1,7 +1,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  border: 7px solid red;
 }
+
 
 .container {
     display: flex;
@@ -25,7 +27,11 @@ body {
   align-items: center;
 }
 
-.button{
+button{
+background-color: #3882F6;
+border-radius: 25px;
+}
 
-
+div { 
+  border: 7px solid red;
 }
