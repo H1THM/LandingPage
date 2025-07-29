@@ -30,7 +30,6 @@ font-size: 18px;
   flex-direction: column;
   margin: 0 auto;
   width: 1500px;
-  border: solid red 5px;
 }
   
 .flexitem {
@@ -66,7 +65,7 @@ font-size: 18px;
   justify-content: center;
   background-color: white;
   color:#F9FAF8;
-  padding: 40px 260px 150px 260px;
+  padding: 40px 260px 100px 260px;
 }
 
 .flexcolumn{
@@ -84,3 +83,46 @@ font-size: 18px;
   border: solid #3882F6 5px;
   margin: 0px auto;
 } 
+
+.quotesection {
+background-color: #E5E7EB;
+flex-direction: column;
+font-style: italic;
+font-weight: lighter;
+font-size: 36px;
+color: #1F2937;
+padding: 110px 300px 110px 300px;
+}
+
+.alignselfleft {
+  align-self: flex-end;
+}
+
+.signupsection {
+  justify-content: center;
+  padding: 110px 300px 110px 300px;
+}
+
+.signupcontainer {
+  background-color: #3882f6;
+  border-radius: 8px;
+  min-width: 890px;
+  min-height: 90px;
+  padding: 50px 120px 32px 120px;
+}
+ .calltoactiondiv{
+font-weight: bold; 
+font-size: 28px;
+color:white;
+align-items: center;
+ }
+
+ .footer { 
+  background-color: #1F2937;
+  min-height: 100px;
+  text-align: center;
+  padding: auto;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  } 
